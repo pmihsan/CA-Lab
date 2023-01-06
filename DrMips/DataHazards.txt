@@ -1,0 +1,15 @@
+
+RAW 
+addi $s0, $s0, 5
+add $t0, $s0, $t0
+
+WAR
+li $s1, 4
+li $s2, 10
+add $s0, $s1, $s2
+add $s2, $s1, $zero
+
+WAW
+li $s1, 4
+addi $s2, $s1, 5
+addi $s2, $zero, 10
